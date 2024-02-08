@@ -4,6 +4,7 @@ import getAllFarms from "../services/getAllFarms";
 import getFarmById from "../services/getFarmById";
 import getTotalFarms from "../services/totalFarms";
 import editFarm from "../services/editFarm";
+import deleteFarm from "../services/deleteFarm";
 
 export const router = Router();
 
@@ -17,3 +18,6 @@ router.post("/farms", addFarm);
 
 // edit farm
 router.put("/farms/:id", editFarm);
+
+// delete farm
+router.delete("/farms/:id", deleteFarm);
