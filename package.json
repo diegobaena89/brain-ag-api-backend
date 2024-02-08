@@ -2,10 +2,10 @@
   "name": "brain-ag-api-backend",
   "version": "1.0.0",
   "description": " API RESTful to serve the brain agriculture web app from brain ag company. ",
-  "main": "server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js",
+    "dev": "nodemon src/server.ts",
+    "start": "node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,6 +18,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
