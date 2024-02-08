@@ -1,1 +1,13 @@
 **/node_modules
+coverage
+clover.xml
+lcov.info
+base.css
+block-navigation.js
+favicon.png
+index.html
+prettify.css
+prettify.js
+sort-arrow-sprite.png
+sorter.js
+coverage-final.json
