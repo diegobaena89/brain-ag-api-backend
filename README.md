@@ -4,7 +4,7 @@
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-[Project](#project) | [API Endpoints](#api-endpoints) | [How to Run](#how-to-run)
+[Project](#project) | [API Endpoints](#api-endpoints) | [How to Run](#how-to-run)| [Swagger](#swagger)
 
 </div>
 
@@ -43,6 +43,26 @@ This project serves as the backend for the Brain Agriculture web app developed b
   "cultures": ["Soja", "Cana"]
 }
 ```
+
+---
+
+<a id="swagger"> **Swagger Documentation** </a>
+
+Explore the API using Swagger documentation. The API documentation provides details about available endpoints, request parameters, and response formats.
+
+#### Access Swagger UI
+
+Visit the Swagger UI to interactively explore and test the Brain-AG API:
+
+[Brain-AG Swagger UI](http://localhost:3000/api-docs)
+
+#### How to Use
+
+1. Open the Swagger UI link in your browser.
+2. Browse through available endpoints, request/response examples, and parameter details.
+3. Test API endpoints directly within the Swagger UI.
+
+Feel free to use the Swagger documentation to understand and interact with the Brain-AG API effortlessly.
 
 ---
 
