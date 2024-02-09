@@ -38,7 +38,7 @@ This project serves as the backend for the Brain Agriculture web app developed b
   "state": "São Paulo",
   "city": "São Paulo",
   "total_area": 200,
-  "area_agriculture": 120,
+  "agriculture_area": 120,
   "area_vegetation": 20,
   "cultures": ["Soja", "Cana"]
 }
